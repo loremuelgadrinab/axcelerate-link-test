@@ -1,0 +1,273 @@
+.form-nav-menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+} 
+.form-nav-menu ul li {
+    display: inline;
+    padding-right: 15px;
+}
+.form-nav-menu ul li a{
+	text-decoration: none;
+}
+.form-nav-menu ul li .active{
+	font-weight: bold;
+}
+.form-wrapper{
+	display: none;
+}
+
+.form-nav-menu{
+	border-bottom: 1px solid #C3C3C3;
+	border-top: 1px solid #C3C3C3;
+	padding: 10px 8px;
+	margin-bottom: 30px;
+}
+.form-nav-menu ul li span{
+}
+a.prime_linkmenu,
+a.back_linkmenu{
+	float: left;
+}
+a.prime_linkmenu.next,
+a.linkmenu{
+	float: right;
+}
+a.prime_linkmenu,
+a.linkmenu,
+a.back_linkmenu{
+	text-decoration: none !important;
+	padding: 0 8px;
+	border-radius: 8px;
+	margin-top: 25px;
+}
+
+#confirmations table tr td:first-child{
+	/*font-weight: bold;*/
+}
+.td-center{
+	text-align: center;
+}
+
+#registration_submit,
+#enrolnow{
+	float: right;
+}
+
+table.table_display { 
+  width: 100%; 
+  border-collapse: collapse; 
+}
+/* Zebra striping */
+table.table_display tr:nth-of-type(odd) { 
+  background: #eee; 
+}
+table.table_display th { 
+  background: #CDCDCD; 
+  color: white; 
+  font-weight: bold; 
+  text-transform: capitalize;
+}
+table.table_display th:last-child{ 
+	border: 0px !important;
+  background-image: none !important;
+  border-bottom: 2px solid #CCC !important;
+}
+table.table_display th.disp_sort_none{
+	background-image: none !important;
+	border-bottom: 2px solid #CCC !important;
+}
+h4 a.course_select{
+	position: relative;
+
+}
+h4 a.course_select:before{
+	content: "\f196";
+	font-family: FontAwesome;
+	font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    padding-right: 10px;
+}
+h4 a.course_select.clicked:before{
+	content: "\f147";
+	font-family: FontAwesome;
+	font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    padding-right: 10px;
+}
+
+
+/* reg menus */
+.form-nav-menu ul li{
+	position: relative;
+}
+.form-nav-menu ul li:before{
+	font-family: FontAwesome;
+	font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    padding-right: 4px;
+}
+.form-nav-menu ul li#nav-menu-personal-details:before{
+	content: "\f007";
+}
+.form-nav-menu ul li#nav-menu-contact-details:before{
+	content: "\f095";
+}
+.form-nav-menu ul li#nav-menu-address-details:before{
+	content: "\f015";
+}
+.form-nav-menu ul li#nav-menu-demographics:before{
+	content: "\f1d9";
+}
+.form-nav-menu ul li#nav-menu-employment-and-education:before{
+	content: "\f19d";
+}
+.form-nav-menu ul li#nav-menu-confirmations:before{
+	content: "\f046";
+}
+.form-nav-menu ul li#nav-menu-payment:before{
+	content: "\f155";
+}
+.form-nav-menu ul li.completed-section:before{
+	content: "\f00c" !important;
+	color: green;
+}
+#payment-fa:before{
+	content: "\f155";
+}
+
+/*login*/
+.axl-login-widget.avatar{
+	float: right;
+}
+.axl-login-widget.displayname{
+	font-weight: bold;
+	font-size: 22px;
+}
+.axl-login form ul > li {
+    list-style-type: none;
+}
+
+#account-section-x1{
+	float:left; width:49%;
+}
+#account-section-x2{
+	float:right; width:49%;
+}
+.red{
+	color: red;
+}
+#loading {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(192, 192, 192, 0.5);
+    background-image: url("http://i.stack.imgur.com/MnyxU.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.input {
+    position: relative;
+}
+
+.tooltip {
+    display: none;
+    padding: 10px;
+}
+
+.input:hover .tooltip {
+    background: rgb(211, 211, 211);
+    border-radius: 3px;
+    bottom: -54px;
+    color: rgb(81, 81, 81);
+    display: inline;
+    height: 50px;
+    left: 0;
+    line-height: 30px;
+    position: absolute;
+    z-index: 999;
+}
+
+.input:hover .tooltip:before {
+    display: block;
+    content: "";
+    position: absolute;
+    top: -5px;
+    width: 0; 
+    height: 0; 
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid rgb(211, 211, 211);
+}
+/* Responsive views */
+@media 
+only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px)  {
+
+	/* Force table to not be like tables anymore */
+	table.table_display table, 
+	table.table_display thead, 
+	table.table_display tbody, 
+	table.table_display th, 
+	table.table_display td, 
+	table.table_display tr { 
+		display: block; 
+	}
+	
+	/* Hide table headers (but not display: none;, for accessibility) */
+	table.table_display thead tr { 
+		/*
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+		*/
+	}
+	table.table_display thead tr th.th-disa{
+		display: none;
+	}
+	
+	table.table_display tr { border: 1px solid #ccc; }
+	
+	table.table_display td { 
+		/* Behave  like a "row" */
+		border: none;
+		border-bottom: 1px solid #D5D5D5; 
+		position: relative;
+		padding-left: 50%; 
+	}
+	
+	table.table_display td:before { 
+		/* Now like a table header */
+		position: absolute;
+		/* Top/left values mimic padding */
+		top: 6px;
+		left: 6px;
+		width: 45%; 
+		padding-right: 10px; 
+		white-space: nowrap;
+	}
+	
+	/*
+	Label the data
+	*/
+	table.table_display td:nth-of-type(1):before { content: "Course Name"; }
+	table.table_display td:nth-of-type(2):before { content: "Location"; }
+	table.table_display td:nth-of-type(3):before { content: "Start Date"; }
+	table.table_display td:nth-of-type(4):before { content: "Finish Date"; }
+	table.table_display td:nth-of-type(5):before { content: "Fee"; }
+	table.table_display td:nth-of-type(6):before { content: "Availability"; }
+	table.table_display td:nth-of-type(7):before { content: " "; }
+}
+@media only screen and (max-width: 767px){
+	#account-section-x1, #account-section-x2{
+		float:none; width:100%;
+	}
+}

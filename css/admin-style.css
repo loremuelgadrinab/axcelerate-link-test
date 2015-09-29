@@ -1,0 +1,152 @@
+.axceleratelink_srms_nav_menu ul,
+.axceleratelink_srms_nav_main_menu ul ,
+.axceleratelink_srms_nav_mail_menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+} 
+.axceleratelink_srms_nav_menu ul li,
+.axceleratelink_srms_nav_main_menu ul li ,
+.axceleratelink_srms_nav_mail_menu ul li {
+    display: inline;
+    padding-right: 30px;
+}
+.axceleratelink_srms_nav_menu ul li{
+	padding-right: 20px;
+}
+.axceleratelink_srms_nav_menu ul li a,
+.axceleratelink_srms_nav_main_menu ul li a,
+.axceleratelink_srms_nav_mail_menu ul li a{
+	text-decoration: none;
+}
+.axceleratelink_srms_nav_menu ul li .active,
+.axceleratelink_srms_nav_main_menu ul li .active,
+.axceleratelink_srms_nav_mail_menu ul li .active{
+	font-weight: bold;
+}
+
+.axceleratelink_srms_nav_menu,
+.axceleratelink_srms_nav_main_menu,
+.axceleratelink_srms_nav_mail_menu{
+	border-bottom: 1px solid #C3C3C3;
+	border-top: 1px solid #C3C3C3;
+	padding: 10px 8px;
+	margin: 10px 0px;
+}
+#set_default{
+
+}
+.srms-admin-tab{
+	display: none;
+	padding: 0 10%;
+	min-height: 440px;
+}
+
+/* font icons */
+.axceleratelink_srms_nav_menu ul li,
+.axceleratelink_srms_nav_main_menu ul li{
+	position: relative;
+}
+.axceleratelink_srms_nav_menu ul li:before,
+.axceleratelink_srms_nav_main_menu ul li:before{
+	font-family: FontAwesome;
+	font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+/*--adjust as necessary--*/
+    color: #000;
+    font-size: 18px;
+    padding-right: 3px;
+    left: 0;
+}
+.axceleratelink_srms_nav_menu ul li:before{
+	font-size: 12px;
+}
+.axceleratelink_srms_nav_main_menu ul li#main-menu-course-sec:before{
+	content: "\f03a";
+}
+.axceleratelink_srms_nav_main_menu ul li#main-menu-account-sec:before{
+	content: "\f007";
+}
+.axceleratelink_srms_nav_main_menu ul li#main-menu-reg-sec:before{
+	content: "\f0f6";
+}
+.axceleratelink_srms_nav_main_menu ul li#main-menu-css-sec:before{
+	content: "\f016";
+}
+.axceleratelink_srms_nav_main_menu ul li#main-menu-email-sec:before{
+	content: "\f003";
+}
+.axceleratelink_srms_nav_main_menu ul li#main-menu-regty-sec:before{
+	content: "\f145";
+}
+.axceleratelink_srms_nav_main_menu ul li#main-menu-setting-sec:before{
+	content: "\f013";
+}
+.axceleratelink_srms_nav_menu ul li#reg-menu-Personal:before{
+	content: "\f007";
+}
+.axceleratelink_srms_nav_menu ul li#reg-menu-Contact:before{
+	content: "\f095";
+}
+.axceleratelink_srms_nav_menu ul li#reg-menu-Address:before{
+	content: "\f015";
+}
+.axceleratelink_srms_nav_menu ul li#reg-menu-Demographics:before{
+	content: "\f1d9";
+}
+.axceleratelink_srms_nav_menu ul li#reg-menu-Employment:before{
+	content: "\f19d";
+}
+.axceleratelink_srms_nav_menu ul li#reg-menu-Confirmation:before{
+	content: "\f046";
+}
+.axceleratelink_srms_nav_menu ul li#reg-menu-Payment:before{
+	content: "\f155";
+}
+.axceleratelink_srms_nav_menu ul li#reg-menu-CountryAdd:before{
+	content: "\f024";
+}
+.axceleratelink_srms_nav_menu ul li#reg-menu-CountryDem:before{
+	content: "\f11d";
+}
+.axceleratelink_srms_nav_menu ul li#reg-menu-Languages:before{
+	content: "\f075";
+}
+
+.input {
+    position: relative;
+}
+
+.tooltip {
+    display: none;
+    padding: 10px;
+}
+
+.input:hover .tooltip {
+    background: rgb(211, 211, 211);
+    border-radius: 3px;
+    bottom: -60px;
+    color: rgb(81, 81, 81);
+    display: inline;
+    height: 30px;
+    left: 0;
+    line-height: 30px;
+    position: absolute;
+    z-index: 999;
+}
+
+.input:hover .tooltip:before {
+    display: block;
+    content: "";
+    position: absolute;
+    top: -5px;
+    width: 0; 
+    height: 0; 
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid rgb(211, 211, 211);
+}
+.srms-admin-tab table tr td:first-child{
+	text-align: right;
+}
