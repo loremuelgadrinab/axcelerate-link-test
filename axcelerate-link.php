@@ -3,8 +3,8 @@
     Plugin Name: Axcelerate Link Utility
     Plugin URI: http://www.tide.com.au
     Description: This plugin has been developed by <a href="http://www.tide.com.au">TIDE Training Pty Ltd</a> to link a wordpress website to the <a href="http://www.axcelerate.com.au">Axcelerate student management database</a>. Axceleratete is owned and operated by VM Learning.
-    Author: <a href="https://plus.google.com/u/0/106348228952008823179/posts">Andrew Russell</a>, <a href="https://plus.google.com/u/0/113458527902427375473/posts">Chris Eames</a> and <a href="#">Loremuel Gadrinab</a>
-    Version: 1.3.1.2
+    Author: <a href="https://plus.google.com/u/0/106348228952008823179/posts">Andrew Russell</a>, <a href="https://plus.google.com/u/0/113458527902427375473/posts">Chris Eames</a> and <a href="https://plus.google.com/u/0/109679931803056775531">Loremuel Gadrinab</a>
+    Version: 1.3.1.3
     Author URI: http://www.tide.com.au
     */
 	/* 
