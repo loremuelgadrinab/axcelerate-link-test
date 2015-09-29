@@ -1,0 +1,9 @@
+{
+  "name" : "Axcelerate Link Utility",
+  "version" : "1.3.1.3",
+  "author" : "<a href='https://plus.google.com/u/0/106348228952008823179/posts'>Andrew Russell</a>, <a href='https://plus.google.com/u/0/113458527902427375473/posts'>Chris Eames</a> and <a href='#'>Loremuel Gadrinab</a>",
+  "download_url" : "http://example.com/plugins/my-cool-plugin.zip",
+  "sections" : {
+    "description" : "Plugin description here. You can use HTML."
+  }
+}
